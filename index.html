@@ -2,32 +2,83 @@
 <html> 
     <head> 
         <title>My Personal Blog</title> 
+        <link rel="stylesheet" href="css/style.css"> 
     </head> 
-    <body> 
-        <div class="header">         
-            <h1>Welcome to My Personal Blog</h1>         
-            <nav>             
-                <ul>                 
-                    <li><a href="index.html">Home</a></li>                 
-                    <li><a href="about.html">About</a></li>                 
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="post.html">Contact</a></li>             
-                </ul>         
-            </nav>     
-        </div>     
-        <div class="main">         
-            <section>             
-                <h2>My Blog Posts</h2>             
-                <ul>                 
-                    <li>                     
-                        <a href="post.html">My First Blog Post</a>                     
-                        <img src="images/download.jpeg" alt="garden">                 
-                    </li>                 <!-- Add more blog post titles as needed -->            
-                 </ul>         
-                </section>     
+    <body>     
+        <header>         
+            <div class="header-content">             
+                <div class="logo">                 
+                    <h1>My Personal Blog</h1>             
+                </div>             
+                <nav>                 
+                    <ul>                     
+                        <li><a href="index.html">Home</a></li>                     
+                        <li><a href="about.html">About</a></li>                     
+                        <li><a href="post.html">Post</a></li>                     
+                        <li><a href="contact.html">Contact</a></li>                 
+                    </ul>             
+                </nav>         
             </div>     
-            <div class="footer">         
-                <p>Footer content...</p>     
-            </div> 
-        </body> 
-        </html> 
+        </header>     
+        <main>         
+            <aside class="sidebar">             
+                <h2>Search</h2>             
+                <input type="text" placeholder="Search...">             
+                <h2>Categories</h2>             
+                <ul>                 
+                    <li><a href="#">Clothes</a></li>                 
+                    <li><a href="#">Shoes</a></li>                 
+                    <li><a href="#">Bags</a></li>             
+                </ul>             
+                <h2>Recent Posts</h2>             
+                <ul>                 
+                    <li><a href="#">Men clothing</a></li>                 
+                    <li><a href="#">Ladies clothing</a></li>                 
+                    <li><a href="#">Kids clothing </a></li>             
+                </ul>         
+            </aside>         
+            <section class="content">             
+                <article class="blog-post">                 
+                    <h2>Men Section</h2>                 
+                    <img src="images/images (1).jpeg" alt="Description of image">                 
+                    <p>Welcome to our Men's Clothing section, where style meets comfort and quality. Whether you're looking for casual wear, formal attire, or athletic gear, our diverse range of clothing has something for every occasion and personal style.</p>                 
+                    <a href="men.html" target="#">Read More</a>             
+                </article>             
+                <article class="blog-post">                 
+                    <h2>Ladies Section </h2>                 
+                    <img src="images/images.jpeg" alt="Description of image">                 
+                    <p>Discover the latest trends in women's fashion with our selection of dresses, tops, skirts, jeans, activewear, and accessories. Perfect for every style and occasion.</p>                 
+                    <a href="women.html" target="#">Read More</a>              
+                </article> 
+                <article class="blog-post">                 
+                    <h2>Kids Section</h2>                 
+                    <img src="images/kids.jpeg" alt="Description of image">                 
+                    <p>Shop our fun and durable kids' clothing range, including outfits for boys and girls, from everyday wear to special occasions. Comfortable and stylish options for all ages.</p>                 
+                    <a href="kids.html" target="#">Read More</a>              
+                </article>         
+            </section>     
+        </main>     
+        <footer>         
+            <div class="footer-content">             
+                <div class="social-media">                 
+                    <h2>Follow Me</h2>                 
+                    <ul>                     
+                        <li><a href="#">Facebook</a></li>                     
+                        <li><a href="#">Twitter</a></li>                     
+                        <li><a href="#">Instagram</a></li>                 
+                    </ul>             
+                </div>             
+                <div class="sitemap">                 
+                    <h2>Sitemap</h2>                 
+                    <ul>                     
+                        <li><a href="index.html">Home</a></li>                     
+                        <li><a href="about.html">About</a></li>                     
+                        <li><a href="post.html">Post</a></li>                     
+                        <li><a href="contact.html">Contact</a></li>                 
+                    </ul>             
+                </div>             
+                <p>&copy; 2024 My Personal Blog. All rights reserved.</p>         
+            </div>     
+        </footer> 
+    </body> 
+    </html> 
